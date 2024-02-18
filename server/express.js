@@ -1,3 +1,10 @@
+/*
+    File name: express.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
+
 import express from 'express'
 import bodyParser from 'body-parser'
 import cookieParser from 'cookie-parser'

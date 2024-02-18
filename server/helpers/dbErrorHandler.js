@@ -1,3 +1,10 @@
+/*
+    File name: dbErrorHandler.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
+
 const getErrorMessage = (err) => { 
         let message = ''
         if (err.code) {

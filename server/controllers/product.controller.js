@@ -1,3 +1,10 @@
+/*
+    File name: product.controller.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
+
 import Product from '../models/product.model.js'
 import extend from 'lodash/extend.js'
 import errorHandler from './error.controller.js'

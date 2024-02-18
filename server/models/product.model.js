@@ -1,3 +1,10 @@
+/*
+    File name: product.model.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
+
 import mongoose from 'mongoose'
 
 const ProductSchema = new mongoose.Schema({

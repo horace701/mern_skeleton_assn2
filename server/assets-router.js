@@ -1,4 +1,10 @@
-//const express = require("express");
+/*
+    File name: assets-router.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
+
 import express from 'express';
 
 const router = express.Router();
@@ -12,5 +18,5 @@ router.get(videoRegex, (req, res) => {
   const filePath = req.path;
   res.redirect(303, `http://localhost:3000/src${filePath}`);
 });
-//module.exports = router;
+
 export default router;

@@ -1,3 +1,10 @@
+/*
+    File name: server.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
+
 import config from './config/config.js' 
 import app from './server/express.js'
 import mongoose from 'mongoose' 
@@ -8,7 +15,7 @@ useUnifiedTopology: true } )
  .then(() => {
      console.log("Connected to the database!");
      })
-    
+
 mongoose.connection.on('error', () => {
 throw new Error(`unable to connect to database: ${config.mongoUri}`) 
 })

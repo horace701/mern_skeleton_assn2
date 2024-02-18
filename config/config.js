@@ -1,3 +1,10 @@
+/*
+    File name: config.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
+
 const config = {
     env: process.env.NODE_ENV || 'development', 
     port: process.env.PORT || 8080,

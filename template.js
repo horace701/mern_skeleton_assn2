@@ -1,3 +1,9 @@
+/*
+    File name: template.js
+    Student Name: Hon Chuen Yau (Horace)
+    Student ID: 301398059
+    Date: Feb 17, 2024
+*/
 export default () => { 
     return `<!doctype html>
     <html lang="en"> 
